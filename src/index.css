@@ -1,0 +1,137 @@
+/* CUSTOM CSS FOR WHUC RECONSTRUCTION */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #e9ecef;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.wrapper-container {
+    max-width: 980px;
+    margin: 0 auto;
+}
+
+/* Colors */
+.purple-bg {
+    background-color: #5a2d82 !important;
+}
+.text-primary-purple {
+    color: #5a2d82 !important;
+}
+.bg-primary-purple {
+    background-color: #5a2d82 !important;
+}
+.gray-bg {
+    background-color: #f5f5f5;
+}
+
+/* Typography */
+a {
+    color: #5a2d82;
+    text-decoration: none;
+}
+a:hover {
+    color: #3b1d55;
+}
+.register-title {
+    color: #c8102e;
+    letter-spacing: 0.5px;
+}
+
+/* Header & Nav */
+.top-bar {
+    background: #ffffff;
+}
+.btn-delegate {
+    background-color: #c8102e;
+    border: none;
+    border-radius: 4px 0 0 4px;
+    padding: 6px 15px;
+}
+.btn-delegate:hover {
+    background-color: #a30d25;
+}
+.btn-exhibitor {
+    background-color: #c8102e;
+    border: none;
+    border-radius: 0 4px 4px 0;
+    margin-left: 1px;
+    padding: 6px 15px;
+}
+.btn-exhibitor:hover {
+    background-color: #a30d25;
+}
+
+.main-nav .nav-link {
+    font-size: 13px;
+    font-weight: bold;
+    padding: 10px 15px !important;
+    border-right: 1px solid #734996;
+}
+.main-nav .nav-link:hover {
+    background-color: #49246a;
+}
+.main-nav .nav-link.active {
+    background-color: #734996;
+}
+
+.search-box input {
+    font-size: 12px;
+    width: 150px;
+}
+
+/* Features Grid */
+.feature-card {
+    border: 1px solid #e5e5e5;
+    background: #fff;
+    padding: 15px;
+}
+.feature-card .card-header-title {
+    background: #5a2d82;
+    color: #fff;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 8px 12px;
+    margin: -15px -15px 15px -15px;
+}
+.feature-card img {
+    height: 120px;
+    width: 100%;
+    object-fit: cover;
+}
+.feature-card p {
+    font-size: 12px;
+    color: #666;
+    margin-bottom: 5px;
+}
+.read-more {
+    font-size: 11px;
+    font-weight: bold;
+    text-transform: lowercase;
+    text-align: right;
+    display: block;
+}
+
+/* Event Details (Sidebar) */
+.arabic-greeting {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 18px;
+    color: #5a2d82;
+    font-style: italic;
+    margin-bottom: 5px;
+}
+
+/* News Section */
+.news-section .border {
+    border-color: #e5e5e5 !important;
+}
+
+/* Miscellaneous */
+.avatar {
+    object-fit: cover;
+}
+
+.hero-slider img {
+    min-height: 200px;
+    background: #eee;
+}
