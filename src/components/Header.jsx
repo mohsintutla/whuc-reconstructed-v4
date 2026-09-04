@@ -9,7 +9,7 @@ function Header() {
         <div className="row align-items-center">
           <div className="col-md-5 logo-section">
             <Link to="/">
-              <img src="https://hajjpeople.com/assets/hajj-logo.png" alt="WHUC World Hajj & Umrah Convention" className="img-fluid" style={{maxHeight: '80px'}} />
+              <img src="/images/main-whuc-logo.png" alt="WHUC World Hajj & Umrah Convention" className="img-fluid" style={{maxHeight: '80px'}} />
             </Link>
             <img src="/images/london-logo.png" alt="London" className="img-fluid ms-3" style={{maxHeight: '50px'}} />
           </div>
@@ -19,8 +19,8 @@ function Header() {
           <div className="col-md-4 text-end register-section">
             <h6 className="mb-1 text-uppercase register-title text-secondary">Register Online</h6>
             <div className="register-buttons mb-1">
-              <button className="btn btn-sm btn-delegate text-white fw-bold">Delegate</button>
-              <button className="btn btn-sm btn-exhibitor text-white fw-bold">Exhibitor</button>
+              <Link to="/register"><button className="btn btn-sm btn-delegate text-white fw-bold">Delegate</button></Link>
+              <Link to="/register"><button className="btn btn-sm btn-exhibitor text-white fw-bold">Exhibitor</button></Link>
             </div>
             <p className="phone mb-0 text-muted" style={{fontSize: '14px'}}>call <span className="text-primary-purple">+44 208 252 4363</span></p>
           </div>

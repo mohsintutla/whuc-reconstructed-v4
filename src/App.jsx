@@ -8,6 +8,7 @@ import News from './pages/News';
 import Sponsor from './pages/Sponsor';
 import Venue from './pages/Venue';
 import Contact from './pages/Contact';
+import Register from './pages/Register';
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
           <Route path="/venue" element={<Venue />} />
           <Route path="/news" element={<News />} />
           <Route path="/contact" element={<Contact />} />
+          <Route path="/register" element={<Register />} />
         </Routes>
 
         <Footer />
